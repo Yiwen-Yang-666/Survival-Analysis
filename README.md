@@ -19,7 +19,8 @@ semi-supervised model that uses MRMR feature selection and Bayesian classificati
 will be developed in the future work. However, all methods ignore gene-gene
 interactions which is particular problematic for traditional statistical techniques. Some
 powerful methods for gene-gene interaction, such as GENN (Grammatical Evolution
-Neural Networks) will be tested in the future work.
+Neural Networks) will be tested in the future work. A very detailed and highly technical
+description of all algorithms we implemented is included.
 
 
 
