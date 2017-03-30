@@ -1,4 +1,5 @@
 Abstract
+
 An important goal of DNA microarray research is to develop tools to diagnose cancer
 more accurately based on the genetic profile of a tumor. There are several existing
 techniques in the literature for performing this type of diagnosis. Unfortunately, most
