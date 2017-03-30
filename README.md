@@ -43,6 +43,7 @@ Unsupervised and supervised
 -Planed to adopt GENN(Genetic Evolution Neural Network) to find gene-gene interaction.
 
 Impact
+
 -Explored which combination of feature selection(i.e .cox score for supervised clustering and SPL; MRMR) with classifier (i.e. nearest shrunken centroids; principal component; Bayesian classifier) is best for our survival data.
 
 -Concluded strength and weakness of every method through comparison when applying different datasets
