@@ -27,23 +27,24 @@ description of all algorithms we implemented is included.
 
 Semi-supervised:
 
--Applied supervised clustering and nearest shrunken centroids to solve classification of survival data (i.e no-class label gene data with only survival time and censoring status ).
+-Improved the SPC( supervised principal components) and used the improved version to solve classification of the survival data. ((i.e no-class label gene data with only survival time and censoring status).
 
--Modified the SPC( supervised principal components) and used the modified version to solve classification of the survival data.
+-Applied supervised clustering and nearest shrunken centroids to solve classification of survival data.
 
 -Developed a model that use MRMR (minimum-redundancy maximum-relevancy) feature selection and Bayesian classification to solve classification of the survival data 
 
-
 Unsupervised and supervised
 
--Implemented unsupervised clustering(e.g. hierarchical clustering) to solve classification of the survival data. 
+-Implemented unsupervised clustering(e.g. hierarchical clustering)and nearest shrunken centroids to solve classification of the survival data. 
 
--Applied KM (Kaplan Meier) graph or median cut to create class label and then adopted nearest shrunken centroids classifier.
+-Adopted KM (Kaplan Meier) graph or median cut to create class label and then adopted nearest shrunken centroids classifier.
 
 -Planed to adopt GENN(Genetic Evolution Neural Network) to find gene-gene interaction.
 
 Impact
 
--Explored which combination of feature selection(i.e .cox score for supervised clustering and SPL; MRMR) with classifier (i.e. nearest shrunken centroids; principal component; Bayesian classifier) is best for our survival data.
+-The improved version of SPC got pretty good performance.
 
--Concluded strength and weakness of every method through comparison when applying different datasets
+-Explored which combination of feature selection(i.e .cox score for supervised clustering and SPC; MRMR) with classifier (i.e. nearest shrunken centroids; principal component; Bayesian classifier) is best for our survival data.
+
+-Concluded strength and weakness of every method when applying different datasets.
