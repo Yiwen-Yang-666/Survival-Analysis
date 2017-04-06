@@ -26,7 +26,6 @@ description of all algorithms we implemented is included.
 
 
 Semi-supervised:
-
 -Improved the SPC( supervised principal components) and used the improved version to solve classification of the survival data. ((i.e no-class label gene data with only survival time and censoring status).
 
 -Applied supervised clustering and nearest shrunken centroids to solve classification of survival data.
