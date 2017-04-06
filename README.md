@@ -26,11 +26,14 @@ description of all algorithms we implemented is included.
 
 
 Semi-supervised:
+
 -Improved the SPC( supervised principal components) and used the improved version to solve classification of the survival data. ((i.e no-class label gene data with only survival time and censoring status).
 
 -Applied supervised clustering and nearest shrunken centroids to solve classification of survival data.
 
 -Developed a model that use MRMR (minimum-redundancy maximum-relevancy) feature selection and Bayesian classification to solve classification of the survival data 
+
+
 
 Unsupervised and supervised
 
@@ -39,6 +42,8 @@ Unsupervised and supervised
 -Adopted KM (Kaplan Meier) graph or median cut to create class label and then adopted nearest shrunken centroids classifier.
 
 -Planed to adopt GENN(Genetic Evolution Neural Network) to find gene-gene interaction.
+
+
 
 Impact
 
