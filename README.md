@@ -5,7 +5,7 @@ different subtypes of cancer are already known to exist. Their utility is limite
 subtypes have not been previously identified. Although methods for identifying such subtypes
 without a priori knowledge of their existence exist, they do not work well in high dimensional
 feature spaces. Recently, several approaches were proposed for survival analysis in high
-dimensional space, where the feature space consists of the expression profiles from thousands
+dimensional feature space, where the feature space consists of the expression profiles from thousands
 or even tens of thousands of genes. These approaches can be generally categorized into three
 types: unsupervised, supervised and semi-supervised. Their performances have been
 evaluated on several data sets. In most of the cases, semi-supervised approaches seem to have
