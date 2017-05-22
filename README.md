@@ -4,40 +4,40 @@
 
 Semi-supervised:
 
-   -Improved SPC (supervised principal components) and used the improved version to solve classification of the survival data.
+   ---Improved SPC (supervised principal components) and used the improved version to solve classification of the survival data.
  
-   -Applied supervised clustering and nearest shrunken centroids to solve classification of the survival data 
+   ---Applied supervised clustering and nearest shrunken centroids to solve classification of the survival data 
 
 
 
 Depending on the clinical data:
  
-   -Adopted median cut to create class labels and then trained the nearest shrunken centroids classifier to solve classification     of the survival data.
+  ---Adopted median cut to create class labels and then trained the nearest shrunken centroids classifier to solve classification     of the survival data.
  
-  -Developed a model that applied MRMR (minimum-redundancy maximum-relevancy) feature selection and Naïve Bayesian classifier to    solve classification of the survival data.
+  ---Developed a model that applied MRMR (minimum-redundancy maximum-relevancy) feature selection and Naïve Bayesian classifier to solve classification of the survival data.
 
 
 
 Unsupervised:
 
-  -Implemented unsupervised techniques (e.g. hierarchical clustering) and then trained the nearest shrunken centroids classifier    to solve classification of the survival data.
+  ---Implemented unsupervised techniques (e.g. hierarchical clustering) and then trained the nearest shrunken centroids        classifier to solve classification of the survival data.
 
 
 
 Future Work:
  
-  -Planned to develop a semi-supervised model that applied the MRMR and Naïve Bayesian classifier.
+  ---Planned to develop a semi-supervised model that applied the MRMR and Naïve Bayesian classifier.
 
-  -Planned to adopt GENN (Genetic Evolution Neural Network) to find gene-gene interaction.
+  ---Planned to adopt GENN (Genetic Evolution Neural Network) to find gene-gene interaction.
 
 
 
 Impact
 
-  -The improved version of SPC got pretty good performance.
+  ---The improved version of SPC got pretty good performance.
 
-  -The semi-supervised model overpowered the other two types of approaches.
+  ---The semi-supervised model overpowered the other two types of approaches.
 
-  -The methods based on clinical data were valid on our gene data.
+  ---The methods based on clinical data were valid on our gene data.
 
 
