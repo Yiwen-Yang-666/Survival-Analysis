@@ -1,36 +1,34 @@
-An important goal of DNA microarray research is to develop tools to diagnose cancer more
-accurately based on the genetic profile of a tumor. There are several existing techniques in the
-literature for performing this type of diagnosis. Most of these techniques assume that
-different subtypes of cancer are already known to exist. Their utility is limited when such
-subtypes have not been previously identified. Although methods for identifying such subtypes
-without a priori knowledge of their existence exist, they do not work well in high dimensional
-feature spaces. Recently, several approaches were proposed for survival analysis in high
-dimensional feature space, where the feature space consists of the expression profiles from thousands
-or even tens of thousands of genes. These approaches can be generally categorized into three
-types: unsupervised, supervised and semi-supervised. Their performances have been
-evaluated on several data sets. In most of the cases, semi-supervised approaches seem to have
-superior performances than the other two.In this study, We investigated and made some improvements on all of the semi-supervised algorithms. Besides, we investigated and modified some of the most important state-of-art unsupervised and supervised algorithms. We also developed a model to compare with those investigated methods. 
+  This is a project related to survival analysis in high dimension feature space. In the literature, there are 3 types of methods (i.e. unsupervised, depending on the clinical data , and semi-supervised) to identify subtypes of survival data (the responses of data are not completed and the responses are multiple ). We investigated and evaluated some of the most important state-of-the-art approaches. In addition, we made improvements on the semi-supervised approaches and the methods based on clinical data. We also developed a model to test whether the methods based on clinical data were valid on our gene data.
 
 
 
 Semi-supervised:
 
--Improved SPC( supervised principal components) and used the improved version to solve classification of the survival data.(i.e no-class label gene data with survival time and censoring status).
-
--Developed MRMR (minimum-redundancy maximum-relevancy) feature selection and Bayesian classifier to solve classification of the survival data.
-
--Applied supervised clustering and nearest shrunken centroids to solve classification of survival data 
+ -Improved SPC (supervised principal components) and used the improved version to solve classification of the survival data.
+ 
+ -Applied supervised clustering and nearest shrunken centroids to solve classification of the survival data 
 
 
 
+ Depending on the clinical data:
+ 
+ -Adopted median cut to create class labels and then trained the nearest shrunken centroids classifier to solve classification of the survival data.
+ 
+-Developed a model that applied MRMR (minimum-redundancy maximum-relevancy) feature selection and Naïve Bayesian classifier to solve classification of the survival data.
 
-Unsupervised and supervised
 
--Implemented unsupervised clustering(e.g. hierarchical clustering)and nearest shrunken centroids to solve classification of the survival data. 
 
--Adopted KM (Kaplan Meier) graph or median cut to create class labels and then adopted nearest shrunken centroids classifier.
+Unsupervised:
 
--Planed to adopt GENN(Genetic Evolution Neural Network) to find gene-gene interaction.
+-Implemented unsupervised techniques (e.g. hierarchical clustering) and then trained the nearest shrunken centroids classifier to solve classification of the survival data.
+
+
+
+ Future Work:
+ 
+-Planned to develop a semi-supervised model that applied the MRMR and Naïve Bayesian classifier.
+
+-Planned to adopt GENN (Genetic Evolution Neural Network) to find gene-gene interaction.
 
 
 
@@ -38,6 +36,8 @@ Impact
 
 -The improved version of SPC got pretty good performance.
 
--Explored which combination of feature selection(i.e .cox score and MRMR) with classifier (i.e. nearest shrunken centroids, supervised principal components, and Bayesian classifier) was best for our survival data.
+-The semi-supervised model overpowered the other two types of approaches.
 
--Concluded strengths and weaknesses of every method when applying different datasets.
+-The methods based on clinical data were valid on our gene data.
+
+
