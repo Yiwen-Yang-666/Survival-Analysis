@@ -4,40 +4,33 @@
 
 Semi-supervised:
 
-   ---Improved SPC (supervised principal components) and used the improved version to solve classification of the survival data.
+   ---Improved SPC (supervised principal components) and used the improved version to identify subtypes of the survival data.
  
-   ---Applied supervised clustering and nearest shrunken centroids to solve classification of the survival data 
+   ---Applied supervised clustering and nearest shrunken centroids to identify subtypes of the survival data 
 
 
 
-Depending on the clinical data:
+Methods Depending on the clinical data:
  
-  ---Adopted median cut to create class labels and then trained the nearest shrunken centroids classifier to solve classification     of the survival data.
+  ---Adopted median cut and train nearest shrunken Centroids to identify subtypes of the survival data..
  
-  ---Developed a model that applied MRMR (minimum-redundancy maximum-relevancy) feature selection and Naïve Bayesian classifier to solve classification of the survival data.
+  ---Utilized the Kaplan Meier to create class labels, then developed a model that apply MRMR (minimum-redundancy maximum – relevance) feature selection and Bayesian Classification to identify subtypes of the survival data.
 
 
 
-Unsupervised:
+Methods Depending on Unsupervised:
 
-  ---Implemented unsupervised techniques (e.g. hierarchical clustering) and then trained the nearest shrunken centroids        classifier to solve classification of the survival data.
-
-
-
-Future Work:
- 
-  ---Planned to develop a semi-supervised model that applied the MRMR and Naïve Bayesian classifier.
-
-  ---Planned to adopt GENN (Genetic Evolution Neural Network) to find gene-gene interaction.
+  ---Implemented unsupervised learning (e.g. hierarchical clustering) to create class labels and trained nearest shrunken Centroids to identify subtypes of the survival data.
 
 
 
-Impact
 
-  ---The improved version of SPC got pretty good performance.
+Impact:
 
-  ---The semi-supervised model overpowered the other two types of approaches.
+  ---The improved version of SPL obtained the best performance among all algorithms.
 
-  ---The methods based on clinical data were valid on our gene data.
+  ---The semi-supervised algorithms overpowered the other two types of approaches.
+
+  ---Concluded strengths and weaknesses of each type of method.
 
 
